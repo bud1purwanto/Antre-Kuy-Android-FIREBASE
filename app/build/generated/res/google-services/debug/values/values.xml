@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">671587300794-7gvf0u5p03e479loltqr2no9bbpg9gtd.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://sm4rtqueue.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">671587300794</string>
+    <string name="google_api_key" translatable="false">AIzaSyBeGEZZnMfBuKGUrXSVLDMyKhw5zSIcakc</string>
+    <string name="google_app_id" translatable="false">1:671587300794:android:24c7019e436296be</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBeGEZZnMfBuKGUrXSVLDMyKhw5zSIcakc</string>
+    <string name="google_storage_bucket" translatable="false">sm4rtqueue.appspot.com</string>
+    <string name="project_id" translatable="false">sm4rtqueue</string>
+</resources>

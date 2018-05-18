@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bluelight">#49acd5</color>
+    <color name="green">#45bc62</color>
+    <color name="orange">#eaad45</color>
+    <color name="black">#2f333f</color>
+
+    <color name="purple_500">#9C27B0</color>
+    <color name="deep_purple_500">#773AB7</color>
+    <color name="indigo_500">#3F51B5</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="cyan_500">#00BCD4</color>
+    <color name="light_blue_500">#03A9F4</color>
+
+    <color name="grey">#c9c8c8</color>
+    <color name="white">#ffffff</color>
+</resources>

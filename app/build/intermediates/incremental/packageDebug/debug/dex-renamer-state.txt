@@ -1,0 +1,4 @@
+#Mon May 14 19:17:48 WIB 2018
+base.0=/media/budi/Dell_Data1/Documents/QMS Terapan/Project/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

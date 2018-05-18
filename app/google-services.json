@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "671587300794",
+    "firebase_url": "https://sm4rtqueue.firebaseio.com",
+    "project_id": "sm4rtqueue",
+    "storage_bucket": "sm4rtqueue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671587300794:android:24c7019e436296be",
+        "android_client_info": {
+          "package_name": "com.bud1purwanto.smartqueue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671587300794-ahtoo541u2nrnlcv6js99fd7abacsnqq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bud1purwanto.smartqueue",
+            "certificate_hash": "52c11afa830fbfe615424aae64df3ee972d48019"
+          }
+        },
+        {
+          "client_id": "671587300794-7gvf0u5p03e479loltqr2no9bbpg9gtd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeGEZZnMfBuKGUrXSVLDMyKhw5zSIcakc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671587300794-7gvf0u5p03e479loltqr2no9bbpg9gtd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

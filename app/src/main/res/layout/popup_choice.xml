@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="175dp"
+    android:background="@color/black"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/Pilih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Foto"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/buttonstyle"
+        android:text="Kamera"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnGaleri"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/buttonstyle"
+        android:text="Galeri"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

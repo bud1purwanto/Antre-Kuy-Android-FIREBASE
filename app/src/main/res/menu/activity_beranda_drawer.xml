@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/listorder"
+            android:icon="@drawable/order"
+            android:title="Order Pengajar" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/histori"
+            android:title="History Transaksi" />
+        <item
+            android:id="@+id/pesan"
+            android:icon="@drawable/pesan"
+            android:title="Pesan" />
+    </group>
+
+    <item android:title="Akun Anda">
+        <menu>
+            <item
+                android:id="@+id/editprofil"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Edit Profil" />
+            <item
+                android:id="@+id/editpassword"
+                android:icon="@drawable/key"
+                android:title="Ganti Password" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+
+</menu>

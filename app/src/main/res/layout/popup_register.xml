@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:background="@color/black"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/white"
+        android:text="X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:background="@drawable/circlebackground"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/popupfoto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/logouser" />
+        <TextView
+            android:id="@+id/popupnama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama User"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:id="@+id/popupttl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tempat, Tanggal Lahir"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@color/orange"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agama"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/popupagama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agama User"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/green"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/popupstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status User"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/bluelight"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pekerjaan"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/popuppekerjaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pekerjaan User"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/popupemail"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_mail_outline_white24dp"
+            android:drawableRight="@drawable/ic_contact_mail_white_24dp"
+            android:ems="10"
+            android:hint="Masukkan Email Anda"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"/>
+
+        <EditText
+            android:id="@+id/popuppassword"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_lock_outline_white_24dp"
+            android:drawableRight="@drawable/ic_vpn_key_white_24dp"
+            android:ems="10"
+            android:hint="Masukkan Password Anda"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnpopupregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/buttonstyle"
+        android:text="Register"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
